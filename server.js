@@ -400,7 +400,7 @@ app.listen(PORT, () => console.log(`✅ Servidor activo en puerto ${PORT}`));
 // ==== Auto-ping para mantener activo el backend y refrescar la propia URL cada 3 minutos ====
 setInterval(async () => {
   try {
-    const res = await fetch("https://serverpopeimap-1.onrender.com");
+    const res = await fetch("https://mifadelllll.onrender.com");
     const text = await res.text();
     console.log("🔁 Auto-ping realizado:", text);
   } catch (error) {
@@ -408,3 +408,4 @@ setInterval(async () => {
   }
 
 }, 180000); // 180000 ms = 3 minutos
+
